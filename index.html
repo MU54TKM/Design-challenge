@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore featured blogs and articles on Ryalto's developer page. Learn about GitHub tips, AI applications, engineering principles, and more. Join us in celebrating innovation, curiosity, and positivity in development.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Design Challenge</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu-icon" id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <h2>Ryalto Developer Page</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <header id="heading">
+          <h1>Celebrating Our Developers</h1>
+          <h3>Our developers embody our core values—innovation, curiosity,<br>
+            and positivity see how this is reflected in their work</h3>
+            <button class="scroll" style="margin-top: 10px;">
+              <a href="#main-cards" style="font-size: larger;">Explore Our Developers' Latest Work</a>
+            </button>
+        </header>
+
+        <section id="search-header">
+          <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search for articles">
+            <button class="filter-button">Filter</button>
+          </div>
+        </section>
+
+      <main class="container">
+        <div id="featured">
+          <h2 style="text-align: center; margin-bottom: 5px;">This week's featured blog: Mastering GitHub: Tips and Tricks for Developers</h2>
+          <img src="images/github.jpeg" alt="github" height="100%" width="100%" />
+          <p><a href="#">Click Here To Read More On This Weeks Featured Blog</a></p>
+        </div>
+      
+        <div class="blog featured-card" id="main-cards">
+          <img src="images/ai.jpeg" alt="ai" />
+          <div class="blog-infos">
+            <div>
+              <h2>How can we use Ai here at Ryalto</h2>
+              <p>Giving you tips and tricks using ai so to enhance our development</p>
+              <i class="fa-regular fa-heart"></i>
+              <i style="padding:5px;"class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+            <h2 class="blog-name">James</h2>
+            <img
+              src="images/james.jpeg" alt="james profile picture"
+              class="blog-user avatar-bordered"
+            />
+          </div>
+        </div>
+      
+        <div class="blog">
+          <img src="images/our-engineering-principles.jpg" alt="engineering article picture" />
+          <div class="blog-infos">
+            <div>
+              <h2>Our engineering principles</h2>
+              <p>The principles that we follow as we build high quality software at Ryalto</p>
+              <i class="fa-regular fa-heart"></i>
+              <i style="padding:5px;" class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+            <h2 class="blog-name">Miah</h2>
+            <!-- <date>8/9/22</date> -->
+            <img
+              src="images/Miah.jpeg" alt="miah profile picture"
+              class="blog-user avatar-bordered"
+            />
+          </div>
+        </div>
+      
+        <div class="blog">
+          <img src="images/js-toggle-theme.jpg" alt="JS toggle theme" />
+          <div class="blog-infos">
+            <div>
+              <h2>simple javascript theme toggle</h2>
+              <p>Teaching an easy button-triggered condition change. </p>
+              <i class="fa-regular fa-heart"></i>
+              <i style="padding:5px;" class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+            <h2 class="blog-name">Koto</h2>
+            <img
+              src="images/koto.jpeg" alt="koto profile picture"
+              class="blog-user avatar-bordered"
+            />
+          </div>
+        </div>
+        <div class="blog">
+          <img src="images/ruby-on-rails.jpg" alt="ruby on rails theme"/>
+          <div class="blog-infos">
+            <div>
+              <h2>Our tech stack: Ruby on Rails edition</h2>
+              <p>How to get started with ruby on rails </p>
+              <i class="fa-regular fa-heart"></i>
+              <i style="padding:5px;" class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+            <h2 class="blog-name">Obama</h2>
+            <img
+              src="images/obama.jpeg" alt="obama profile picture"
+              class="blog-user avatar-bordered"
+            />
+          </div>
+        </div>
+      </main>
+      
+
+    <footer class="columns-3">
+        <div class="footer-content">
+            <section class="contact">
+                <h3>Contact Us</h3>
+                <p> Ryalto@gmail.com</p>
+                <p> 0208 466 7282</p>
+            </section>
+            <section class="follow-us">
+                <h3>Follow Us</h3>
+                <ul>
+                  <li><span><a href="#">Facebook</a></span><span><i class="fa-brands fa-square-facebook"></i></span></li>
+                  <li><span><a href="#">Twitter</a></span><span><i class="fa-brands fa-x-twitter"></i></span></li>
+                  <li><span><a href="#">LinkedIn</a></span><span><i class="fa-brands fa-linkedin"></i></span></li>
+                </ul>
+            </section>
+            <div> 
+              <h3>Subscribe</h3>
+              <form action="#">
+                  <input type="text" placeholder="Email Address"/>
+                  <button class="submit-btn">➔</button>  
+              </form>
+              <p>&copy; 2023 Ryalto Group</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html
